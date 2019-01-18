@@ -1,6 +1,6 @@
 {
   "name": "tplint",
-  "version": "0.0.420",
+  "version": "0.0.421",
   "description": "Brrrnggg brrrnggg",
   "bin": {
     "tplint": "index.js"
