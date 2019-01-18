@@ -1,3 +1,5 @@
+ #!/usr/bin/env node
+ 
 const cp = require('child_process');
 
 // TODO CHECK FOR AND HANDLE LACK OF ESLINT
