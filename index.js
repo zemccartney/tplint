@@ -1,8 +1,10 @@
 const cp = require('child_process');
 
+// TODO CHECK FOR AND HANDLE LACK OF ESLINT
+
 // TODO What are possible args?
 // TODO Accept more args to lint
-// TODO Pass args input to tplint down to
+// TODO ALLOW PASSING ARGS???
 const lint = cp.spawn('npm', ['run', 'lint']);
 
 // TODO Necessary?
