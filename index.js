@@ -1,5 +1,5 @@
  #!/usr/bin/env node
- 
+
 const cp = require('child_process');
 
 // TODO CHECK FOR AND HANDLE LACK OF ESLINT
@@ -27,6 +27,8 @@ lint.on('close', (exitCode) => {
         // WE NEED TO FORMAT RESULTS
         // TODO WHY DOES FORMATTING DISAPPEAR?
         // TODO Just return results as if you ran eslint directly
+        // TODO Is this a sane way to handle?
+        process.exit(exitCode);
     }
 
     console.log(TOPPY_APPROVED);
