@@ -1,0 +1,10 @@
+{
+  "name": "tplint",
+  "version": "0.0.420",
+  "description": "Brrrnggg brrrnggg",
+  "bin": {
+    "tplint": "index.js"
+  },
+  "author": "Zack McCartney",
+  "license": "ISC"
+}
